@@ -89,7 +89,7 @@ const LandingPage = () => {
 
                 <div style={styles.card}>
                     <h3>Contact & Location</h3>
-                    <p>Address: Canal Road, Jail Road, Nashik, 422101 | Ph: +91 89994 14215 | Principal: 70205 69254</p>
+                    <p>Address: Canal Road, Jail Road, sainath nagar, Nashik, 422101 | Ph: +91 89994 14215 | Principal: 70205 69254</p>
                     
                     {/* Buttons with colors and labels */}
                     <a href="https://share.google/FK8yHyS9P0pJtL8q3" style={{...styles.socialBtn, ...styles.mapBtn}}>
@@ -120,4 +120,4 @@ const LandingPage = () => {
     );
 };
 
-export default LandingPage;
+export default LandingPage; 
