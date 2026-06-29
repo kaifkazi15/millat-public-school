@@ -29,6 +29,8 @@ const topperData = [
   { name: 'Shaikh Fatema Akram', percent: '83.20%', img: '/fatema shaikh.png' }
 ];
 
+
+
 const LandingPage = () => {
   const [modal, setModal] = useState({ isOpen: false, items: [] });
   const galleryRef = useRef(null);
@@ -55,10 +57,30 @@ const LandingPage = () => {
           </div>
 
 
+          <div style={{ 
+  width: '100%', 
+  maxWidth: '1200px', 
+  margin: '0 auto 20px auto', 
+  background: '#3bced8', 
+  color: '#000', 
+  padding: '10px', 
+  borderRadius: '10px', 
+  fontWeight: 'bold', 
+  overflow: 'hidden' 
+}}>
+  <marquee scrollamount="8">
+    🌟 Welcome to Millat Public School | 📚 admission are open 2026-2026| 🏫 Join our growing community today!
+  </marquee>
+</div>
+
           
 
 
           
+
+
+          
+
 
 
 <nav style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -86,6 +108,8 @@ const LandingPage = () => {
 
 
 
+
+
         <main style={{ flex: 1, overflowY: 'auto',overflowX: 'hidden',display: 'flex', flexDirection: 'column', padding: '50px' }}>
          <section style={{ 
   width: '100%', 
@@ -108,8 +132,8 @@ const LandingPage = () => {
     ESTD: 2012
   </span>
   
-  <span style={{ position: 'absolute', top: '20px', right: '20px', background: '#3bced8', padding: '10px 20px', borderRadius: '20px', fontSize: '1rem', fontWeight: 'bold', color: '#000' }}>
-    🚀 ADMISSIONS OPEN 2026-27
+  <span style={{ position: 'absolute', top: '0px', right: '0px', background: '#3bced8', padding: '0px 20px', borderRadius: '20px', fontSize: '1rem', fontWeight: 'bold', color: '#000' }}>
+    
   </span>
 
   {/* MILLAT PUBLIC SCHOOL (Ab ye perfectly center mein rahega) */}
@@ -183,6 +207,7 @@ const LandingPage = () => {
           <section style={{ background: '#fff', padding: '40px', borderRadius: '30px', display: 'flex', gap: '40px', marginBottom: '40px' }}>
             <img src="/principle.jpeg" style={{ width: '200px', height: '200px', borderRadius: '20px', objectFit: 'cover' }} />
             <div>
+                
               <h2>Wasim Gayasuddin Shaikh (Principal)</h2>
               <h3>Total 17 years teaching experience 
 Out of 17 years  4 years experience as a head</h3>
