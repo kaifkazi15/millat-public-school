@@ -69,7 +69,7 @@ const LandingPage = () => {
   overflow: 'hidden' 
 }}>
   <marquee scrollamount="8">
-    🌟 Welcome to Millat Public School | 📚 admission are open 2026-2026| 🏫 Join our growing community today!
+    🌟 Welcome to Millat Public School | 📚 admission are open 2026-2027| 🏫 Join our growing community today!
   </marquee>
 </div>
 
