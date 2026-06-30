@@ -80,7 +80,7 @@ const LandingPage = () => {
           padding: '14px 20px'
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <img src="/logo.png" style={{ width: '40px', height: '40px', borderRadius: '50%', border: '2px solid #47b9ea' }} />
+            <img src="/logo1.png" style={{ width: '40px', height: '40px', borderRadius: '50%', border: '2px solid #47b9ea' }} />
             <span style={{ color: '#38bdf8', fontWeight: 'bold', fontSize: '0.95rem' }}>MILLAT PUBLIC SCHOOL</span>
           </div>
           <button
@@ -135,7 +135,7 @@ const LandingPage = () => {
           overflowY: 'auto'
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '40px' }}>
-            <img src="/logo.png" style={{ width: '60px', height: '60px', borderRadius: '50%', border: '2px solid #47b9ea', boxShadow: '0 0 15px rgba(56,189,248,0.5)' }} />
+            <img src="/logo1.png" style={{ width: '60px', height: '60px', borderRadius: '50%', border: '2px solid #47b9ea', boxShadow: '0 0 15px rgba(56,189,248,0.5)' }} />
             <div>
               <h2 style={{ fontSize: '1.1rem', margin: 0, color: '#38bdf8' }}>MILLAT PUBLIC SCHOOL</h2>
               <p style={{ fontSize: '0.75rem', margin: 0, opacity: 0.7 }}>Knowledge • Discipline • Excellence</p>
